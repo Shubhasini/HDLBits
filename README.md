@@ -1,7 +1,6 @@
 # HDLBits
 
-Solutions of HDLBits
-
+ Structure of Directories
 1) Verilog_language <br />
   a) basics <br />
   b) vectors <br />
