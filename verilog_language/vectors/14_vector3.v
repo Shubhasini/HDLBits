@@ -1,5 +1,13 @@
-//concatenation.v
-//vector concatention operator
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 14_vector3.v
+// Create   : 2020-08-30 15:44:30
+// Revise   : 2020-08-30 15:44:30
+// Comments : vector concatention operator
+// -----------------------------------------------------------------------------
+
 
 module top_module (
 	input  [4:0] a, b, c, d, e, f,

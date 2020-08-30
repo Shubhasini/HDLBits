@@ -1,5 +1,13 @@
-//gate.v
-//four input gates
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 13_gates4.v
+// Create   : 2020-08-30 15:43:52
+// Revise   : 2020-08-30 15:43:53
+// Comments :
+// -----------------------------------------------------------------------------
+
 
 //Build a combinational circuit with four inputs, in[3:0].
 //There are 3 outputs:

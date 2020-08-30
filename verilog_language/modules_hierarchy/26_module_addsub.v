@@ -1,5 +1,12 @@
-//adder and substractor
-//https://hdlbits.01xz.net/wiki/Module_addsub
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 26_module_addsub.v
+// Create   : 2020-08-30 15:47:52
+// Revise   : 2020-08-30 15:47:55
+// Comments :
+// -----------------------------------------------------------------------------
 
 module top_module (
     input  [31:0] a  ,

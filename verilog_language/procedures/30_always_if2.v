@@ -1,5 +1,13 @@
-//always_if1.v
-//https://hdlbits.01xz.net/wiki/Always_if2
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 30_always_if2.v
+// Create   : 2020-08-30 15:42:31
+// Revise   : 2020-08-30 15:42:34
+// Comments :
+// -----------------------------------------------------------------------------
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      cpu_overheated   ,

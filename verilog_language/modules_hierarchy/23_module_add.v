@@ -1,4 +1,13 @@
-//https://hdlbits.01xz.net/wiki/Module_add
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 23_module_add.v
+// Create   : 2020-08-30 15:47:28
+// Revise   : 2020-08-30 15:47:29
+// Comments :
+// -----------------------------------------------------------------------------
+
 module top_module (
 	input  [31:0] a  ,
 	input  [31:0] b  ,

@@ -1,5 +1,13 @@
-//always_if.v
-//https://hdlbits.01xz.net/wiki/Always_if
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 29_always_if.v
+// Create   : 2020-08-30 15:42:45
+// Revise   : 2020-08-30 15:42:46
+// Comments :
+// -----------------------------------------------------------------------------
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input       a         ,

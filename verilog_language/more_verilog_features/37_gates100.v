@@ -1,5 +1,14 @@
-//gates.v
-//https://hdlbits.01xz.net/wiki/Gates100
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 37_gates100.v
+// Create   : 2020-08-30 15:49:15
+// Revise   : 2020-08-30 15:49:17
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 module top_module (
 	input  [99:0] in     ,
 	output        out_and,

@@ -1,5 +1,14 @@
-//adder100i.v
-//https://hdlbits.01xz.net/wiki/Adder100i
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 40_adder100i.v
+// Create   : 2020-08-30 15:49:49
+// Revise   : 2020-08-30 15:49:50
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 module top_module (
     input  [99:0] a, b,
     input         cin ,

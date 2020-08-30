@@ -1,5 +1,13 @@
-//always_case.v
-//https://hdlbits.01xz.net/wiki/Always_case
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 31_always_case.v
+// Create   : 2020-08-30 15:42:24
+// Revise   : 2020-08-30 15:42:25
+// Comments :
+// -----------------------------------------------------------------------------
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      [2:0] sel  ,

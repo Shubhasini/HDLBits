@@ -1,6 +1,12 @@
-//module2.v
-
-//connecting ports by name
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 20_module_name.v
+// Create   : 2020-08-30 15:47:03
+// Revise   : 2020-08-30 15:47:05
+// Comments :
+// -----------------------------------------------------------------------------
 
 module top_module (
 	input  a   ,

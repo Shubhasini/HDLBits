@@ -1,5 +1,13 @@
-//module_shift
-//https://hdlbits.01xz.net/wiki/Module_shift8
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 22_module_shift8.v
+// Create   : 2020-08-30 15:47:19
+// Revise   : 2020-08-30 15:47:21
+// Comments :
+// -----------------------------------------------------------------------------
+
 module top_module (
 	input        clk,
 	input  [7:0] d  ,

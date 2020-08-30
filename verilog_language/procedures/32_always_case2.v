@@ -1,5 +1,13 @@
-//priority.v
-//https://hdlbits.01xz.net/wiki/Always_case2
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 32_always_case2.v
+// Create   : 2020-08-30 15:42:17
+// Revise   : 2020-08-30 15:42:18
+// Comments :
+// -----------------------------------------------------------------------------
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      [3:0] in ,

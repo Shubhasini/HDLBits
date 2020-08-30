@@ -1,4 +1,13 @@
-//vector1.v
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 10_vector1.v
+// Create   : 2020-08-30 15:43:22
+// Revise   : 2020-08-30 15:43:24
+// Comments :
+// -----------------------------------------------------------------------------
+
 
 `default_nettype none     // Disable implicit nets. Reduces some types of bugs.
 module top_module (

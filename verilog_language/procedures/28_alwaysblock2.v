@@ -1,5 +1,14 @@
-//clk_procedure.v
-// synthesis verilog_input_version verilog_2001
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 28_alwaysblock2.v
+// Create   : 2020-08-30 15:40:33
+// Revise   : 2020-08-30 15:40:38
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 module top_module (
     input       clk            ,
     input       a              ,

@@ -1,5 +1,14 @@
-//Always_nolatches.v
-//https://hdlbits.01xz.net/wiki/Always_nolatches
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 34_Always_nolatches.v
+// Create   : 2020-08-30 15:41:39
+// Revise   : 2020-08-30 15:41:40
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
   input      [15:0] scancode,

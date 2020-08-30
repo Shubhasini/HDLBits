@@ -1,5 +1,14 @@
-//always_casez.v
-//https://hdlbits.01xz.net/wiki/Always_casez
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 33_always_casez.v
+// Create   : 2020-08-30 15:41:47
+// Revise   : 2020-08-30 15:41:50
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      [7:0] in ,

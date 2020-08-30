@@ -1,5 +1,14 @@
-//pop_count.v
-//https://hdlbits.01xz.net/wiki/Popcount255
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 39_popcount255.v
+// Create   : 2020-08-30 15:49:36
+// Revise   : 2020-08-30 15:49:39
+// Comments :
+// -----------------------------------------------------------------------------
+
+
 module top_module (
     input  [254:0] in ,
     output [  7:0] out

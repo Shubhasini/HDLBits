@@ -1,5 +1,12 @@
-//Conditional.v
-//https://hdlbits.01xz.net/wiki/Conditional
+// -----------------------------------------------------------------------------
+// Copyright (c) 2020 All rights reserved
+// -----------------------------------------------------------------------------
+// Author   : Shubhasini D (shubhasinid@gmail.com)
+// File     : 35_Conditional.v
+// Create   : 2020-08-30 15:48:55
+// Revise   : 2020-08-30 15:48:58
+// Comments :
+// -----------------------------------------------------------------------------
 
 module top_module (
 	input  [7:0] a, b, c, d,
