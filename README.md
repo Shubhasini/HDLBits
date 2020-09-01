@@ -54,8 +54,29 @@
   - *40_adder100i.v* <br />
   - *41_bcdadd100.v* <br />
 
-### 2. Circuits
-       a) Combinational Logic
-       b) Sequential Logic
-       c) Building Larger Circuits
->>>>>>> e40da7e88828bc2855427f596e93927571c9a0ef
+### 2. Circuits <br />
+  **a) Combinational Logic** <br /> 
+    1_Basic_gates
+    - *42_wire.v*  <br />
+    - *43_gnd.v* <br />
+    - *44_nor.v* <br />
+      - *45_gate1.v* <br />
+      - *46_gate2.v* <br />
+      - *47_gates3.v* <br /> 
+      - *48_7420.v* <br />
+      - *49_Truthtable1.v* <br />
+      - *50_2_bit_equality.v* <br />
+      - *51_ckt1.v* <br />
+      - *52_ckt2.v* <br />
+      - *53_combine_ckt.v* <br />
+      - *54_ringer.v* <br />
+      - *55_Thermostat.v* <br />
+      - *56_popcount3.v* <br />
+      - *57_gatesv.v* <br />
+      - *58_gatesv100.v* <br />
+
+                     
+
+  **b) Sequential Logic** <br />
+  **c) Building Larger Circuits** <br />
+				>>>>>>> e40da7e88828bc2855427f596e93927571c9a0ef
