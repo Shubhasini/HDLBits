@@ -2,7 +2,9 @@
 
 ## Structure of Directories
 ### 1) Verilog_language <br />
-       a) basics 
+       a) basics
+          1_simple_wire.v
+          2_Four_wires.v
        b) vectors 
        c) modules_hierarchy 
        d) procedures 
