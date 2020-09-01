@@ -2,16 +2,16 @@
 // Copyright (c) 2020 All rights reserved
 // -----------------------------------------------------------------------------
 // Author   : Shubhasini D (shubhasinid@gmail.com)
-// File     : 3_notgate.v
-// Create   : 2020-08-30 15:45:34
-// Revise   : 2020-08-30 15:45:35
+// File     : 1_wire.v
+// Create   : 2020-08-30 15:45:20
+// Revise   : 2020-08-31 01:42:22
 // Comments :
 // -----------------------------------------------------------------------------
+
 
 module top_module (
 	input  in ,
 	output out
 );
-	//Create a module that implements a NOT gate.
-	assign out = !in;
+	assign out = in; //connecting through wire
 endmodule
