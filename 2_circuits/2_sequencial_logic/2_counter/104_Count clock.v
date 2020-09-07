@@ -33,7 +33,6 @@ module top_module (
 					if (ena)
 						begin
 							//////sec condition
-
 							if (ss != {4'h5, 4'h9} )
 								begin
 									if (ss[3:0] != 4'd9)
@@ -52,10 +51,7 @@ module top_module (
 								begin
 									ss      <= 0; //sec turns 0
 									mm[7:0] <= mm[7:0] + 1;// min increment by 1
-
-
 									//////////min condition///////////
-
 									if (mm != {4'h5, 4'h9} )
 										begin
 											if (mm[3:0] != 4'd9)
@@ -74,7 +70,6 @@ module top_module (
 										begin
 											mm      <= 0; //min turns 0
 											hh[7:0] <= hh[7:0] + 1;// hour increment by 1
-
 											/////////hour condition//
 											//hh=11 & mm =59 & ss =59
 											if(hh == {4'h1, 4'h1})
@@ -96,7 +91,6 @@ module top_module (
 													end
 												end
 											else //hh = 12 & mm =59 & ss=59
-												//12 to 1 hh change
 												begin
 													hh <= 1;
 												end
