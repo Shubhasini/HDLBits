@@ -41,13 +41,12 @@ module top_module (
 											//increment of sec zero digit
 											ss <= ss + 4'd1;
 										end
-										else
-											//increment of sec tenth digit
-											begin
-												ss[3:0] <= 4'd0;
-												ss[7:4] <= ss[7:4]  + 4'd1;
-											end
-
+									else
+										//increment of sec tenth digit
+										begin
+											ss[3:0] <= 4'd0;
+											ss[7:4] <= ss[7:4]  + 4'd1;
+										end
 								end
 							else  //ss ==59 (bcd)
 								begin
@@ -64,13 +63,12 @@ module top_module (
 												begin
 													mm <= mm + 4'd1;
 												end
-												else
-													//increment of min tenth digit
-													begin
-														mm[3:0] <= 4'd0;
-														mm[7:4] <= mm[7:4]  + 4'd1;
-													end
-
+											else
+												//increment of min tenth digit
+												begin
+													mm[3:0] <= 4'd0;
+													mm[7:4] <= mm[7:4]  + 4'd1;
+												end
 										end
 									else  //mm == 59 & ss==59 (bcd)
 										begin
@@ -85,18 +83,17 @@ module top_module (
 											if (hh != {4'h1, 4'h2} )
 												begin
 
-													if (hh[3:0] != 4'd9)
-														//increment of hh zero digit
-														begin
-															hh <= hh + 4'd1;
-														end
-														else
-															//increment of hh tenth digit
-															begin
-																hh[3:0] <= 4'd0;
-																hh[7:4] <= hh[7:4]  + 4'd1;
-															end
-
+												if (hh[3:0] != 4'd9)
+													//increment of hh zero digit
+													begin
+														hh <= hh + 4'd1;
+													end
+												else
+													//increment of hh tenth digit
+													begin
+														hh[3:0] <= 4'd0;
+														hh[7:4] <= hh[7:4]  + 4'd1;
+													end
 												end
 											else //hh = 12 & mm =59 & ss=59
 												//12 to 1 hh change
