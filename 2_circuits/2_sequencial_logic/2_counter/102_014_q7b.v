@@ -4,7 +4,7 @@
 // Author           : Shubhasini D (shubhasinid@gmail.com)
 // File             : 102_014_q7b.v
 // Create           : 2020-09-05 12:20:54
-// Revision         : 2020-09-05 12:22:20
+// Revision         : 2020-09-07 23:10:43
 // Description      :
 // 
 // -----------------------------------------------------------------------------
@@ -28,6 +28,6 @@ module top_module (
 	assign c_enable[1] = q0 == 4'd9; //for second countet
 	assign c_enable[2] = (q1 == 4'd9) && (q0 == 4'd9); //for third counter
 
-	//when all the counter output is extream 1
+	//when all the counter output is 9
 	assign OneHertz = (q2 == 4'd9) && (q1 == 4'd9) && (q0 == 4'd9); 
 endmodule
