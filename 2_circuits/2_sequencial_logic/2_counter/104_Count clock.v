@@ -52,7 +52,7 @@ module top_module (
 									ss      <= 0; //sec turns 0
 									mm[7:0] <= mm[7:0] + 1;// min increment by 1
 									//////////min condition///////////
-									if (mm != {4'h5, 4'h9} )
+								if (mm != {4'h5, 4'h9} )
 										begin
 											if (mm[3:0] != 4'd9)
 												//increment of min zero digit
