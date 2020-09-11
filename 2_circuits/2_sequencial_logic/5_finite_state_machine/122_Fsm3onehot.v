@@ -4,7 +4,7 @@
 // Author           : Shubhasini D (shubhasinid@gmail.com)
 // File             : 122_Fsm3onehot.v
 // Create           : 2020-09-10 21:41:43
-// Revision         : 2020-09-10 21:41:57
+// Revision         : 2020-09-11 12:38:58
 // Description      :
 // 
 // -----------------------------------------------------------------------------
@@ -18,12 +18,12 @@ module top_module(
     parameter A=0, B=1, C=2, D=3;
 
     // State transition logic: Derive an equation for each state flip-flop.
-    assign next_state[A] = ...;
-    assign next_state[B] = ...;
-    assign next_state[C] = ...;
-    assign next_state[D] = ...;
+    assign next_state[A] = (state[0] & ~in) | (state[2] & ~in);
+    assign next_state[B] = (state[0] & in) | (state[1] & in) | (state[3] & in);
+    assign next_state[C] = (state[1] & ~in) | (state[3] & ~in);
+    assign next_state[D] = (state[2] & in);
 
     // Output logic: 
-    assign out = ...;
+    assign out = state[3];
 
 endmodule
