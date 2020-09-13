@@ -5,6 +5,7 @@
 // File             : 130_Fsm_onehot.v
 // Create           : 2020-09-12 17:44:41
 // Revision         : 2020-09-12 18:58:28
+// url of que.      : https://hdlbits.01xz.net/wiki/Fsm_onehot
 // Description      :
 //
 // -----------------------------------------------------------------------------
