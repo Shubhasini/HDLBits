@@ -38,7 +38,6 @@ module top_module (
 						next_state = x ? B : A ;
 						z          = x;
 					end
-
 				B :
 					begin
 						next_state = B ;
