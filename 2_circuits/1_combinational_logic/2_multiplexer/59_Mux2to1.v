@@ -10,8 +10,8 @@
 
 
 module top_module (
-	input  a, b, sel,
-	output out
+	input      a, b, sel,
+	output reg out
 );
 	always @(*)
 		case(sel)

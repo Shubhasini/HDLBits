@@ -9,10 +9,10 @@
 // -----------------------------------------------------------------------------
 
 module top_module (
-	input        clk  ,
-	input        reset, // Synchronous reset
-	input  [7:0] d    ,
-	output [7:0] q
+	input            clk  ,
+	input            reset, // Synchronous reset
+	input      [7:0] d    ,
+	output reg [7:0] q
 );
 
 //Create 8 D flip-flops with active high synchronous reset.
